@@ -1,0 +1,9 @@
+#stuff {
+    margin: auto;
+    width: 50%;
+    position: relative;
+    text-align: center;
+}
+body{
+    background-color: greenyellow;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hangperson </title>
+    <script src = "script.js"></script>
+    <link rel = "stylesheet" href="css.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body onload="document.getElementById('reload').disabled=true;">
+<div id="stuff">
+    <h1>Welcome to Hangperson</h1>
+    <h2>By Henry Feldman</h2>
+    <br>
+    <select id="difficulty" >Select Difficulty
+        <option>Easy</option>
+        <option>Medium</option>
+        <option>Hard</option>
+    </select>
+    <button id="play"class="btn btn-primary"onclick="startGame()">Play</button>
+    <br>
+
+    <input id="guessLetter"placeholder="Guess a letter"type="text">
+    <br>
+    <button id="guess" class="btn btn-info"onclick="guessLetter()">Guess</button>
+    <br>
+    <div id="answer"></div>
+    <div id="lettersGuessed"></div>
+    <div id="graveyard"></div>
+    <img id="images">
+    <div id="winOrLose"></div>
+    <button id="reload"class="btn btn-danger"onclick="reloadPage()">Try Again</button>
+
+
+
+</div>
+
+</body>
+</html>
